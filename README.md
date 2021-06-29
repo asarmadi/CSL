@@ -15,3 +15,6 @@ In main_attack.py, an attack strategy is proposed for obtaining images that each
 In opt_attack.py, an optimization-based attack is proposed in which the attacker tries to find a fake image that is classified to the target-label. The overall architecture is depicted in the following figure:
 
 ![Optimization-based](/Figs/optim_arch.png)
+
+## Membership Inference Attack
+In shokri_mi.py, the proposed membership inference attak in ["Comprehensive Privacy Analysis of Deep Learning"](https://www.comp.nus.edu.sg/~reza/files/Shokri-SP2019.pdf) is implemented for our problem.
